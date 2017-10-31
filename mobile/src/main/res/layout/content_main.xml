@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rba.tictactoekotlin.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:showIn="@layout/activity_main">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:gravity="center">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="@dimen/text_size"
+                android:onClick="play"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="@dimen/text_size"
+                android:onClick="play"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="@dimen/text_size"
+                android:onClick="play"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="@dimen/text_size"
+                android:onClick="play"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="@dimen/text_size"
+                android:onClick="play"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="@dimen/text_size"
+                android:onClick="play"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="@dimen/text_size"
+                android:onClick="play"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="@dimen/text_size"
+                android:onClick="play"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="@dimen/text_size"
+                android:onClick="play"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
