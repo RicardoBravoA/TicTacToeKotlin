@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TicTacToeKotlin</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
 </resources>
